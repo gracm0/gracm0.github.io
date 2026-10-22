@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grace Mahoney | Portfolio</title>
+  <meta name="description" content="My personal portfolio is currently under construction.">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: #0b0d12;
+      color: #eef0f6;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    main {
+      width: 100%;
+      max-width: 680px;
+    }
+
+    header, footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    header {
+      padding-bottom: 24px;
+      border-bottom: 1px solid #292d38;
+    }
+
+    .brand {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+
+    .status {
+      color: #b8c5ff;
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
+
+    section {
+      padding: 80px 0;
+    }
+
+    .eyebrow {
+      margin-bottom: 20px;
+      color: #939bb0;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+
+    h1 {
+      max-width: 600px;
+      margin-bottom: 20px;
+      font-size: clamp(40px, 8vw, 64px);
+      line-height: 1.05;
+      letter-spacing: -2px;
+    }
+
+    .description {
+      max-width: 460px;
+      margin-bottom: 32px;
+      color: #a5adbd;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    a {
+      display: inline-block;
+      padding: 12px 18px;
+      border: 1px solid #414655;
+      border-radius: 8px;
+      color: #e2e6ef;
+      text-decoration: none;
+      font-size: 14px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    a.primary {
+      border-color: #dce3ff;
+      background: #dce3ff;
+      color: #111827;
+    }
+
+    a:hover {
+      background: #343949;
+      color: white;
+    }
+
+    a.primary:hover {
+      background: #bdcaff;
+      color: #111827;
+    }
+
+    footer {
+      padding-top: 24px;
+      border-top: 1px solid #292d38;
+      color: #7f8798;
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 480px) {
+      section {
+        padding: 56px 0;
+      }
+
+      footer {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand">Grace Mahoney</div>
+      <div class="status">● IN PROGRESS</div>
+    </header>
+
+    <section>
+      <p class="eyebrow">PORTFOLIO / 2026</p>
+      <h1>Something is being built.</h1>
+      <p class="description">
+        I'm currently building my portfolio to showcase my
+        projects, skills, and work. Check back soon.
+      </p>
+
+      <div class="links">
+        <a class="primary" href=".\resumes\Grace_Mahoney_Resume_Hardware_Development_Engineer.pdf" target="_blank">
+          View Robotics Resume ↗
+        </a>
+        <a class="primary" href=".\resumes\Grace_Mahoney_Resume_Software_Development_Engineer_AWS.pdf" target="_blank">
+          View CS Resume ↗
+        </a>
+        <a href="https://github.com/gracm0"
+           target="_blank" rel="noopener noreferrer">
+          GitHub ↗
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <span>DESIGNED & BUILT BY GRACE MAHONEY</span>
+      <span>MORE COMING SOON ↗</span>
+    </footer>
+  </main>
+</body>
+</html>
